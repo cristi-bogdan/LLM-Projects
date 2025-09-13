@@ -11,7 +11,7 @@ Each project is organized in its own folder with notebooks, code, and documentat
 
 This is a work in progress and will be continuously updated as I explore new tools and techniques in the LLM and generative AI space.
 
-### Resources
+## Resources
 
 - [Vellum Docs](https://docs.vellum.ai/)  
 - [Scale Leaderboard](https://scale.com/leaderboard)  
