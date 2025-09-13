@@ -24,10 +24,10 @@ ANTHROPIC_API_KEY=your_anthropic_api_key
 HF_TOKEN=your_huggingface_token
 ```
 
-4. Save  the file with the name: `.env`
-   **Important:** In the "Save as type" dropdown, select All Files (not `.txt`).
+4. Save  the file with the name: `.env`.
+**Important:** In the "Save as type" dropdown, select All Files (not `.txt`).
    
-5. The project will automatically load these keys when running the notebooks.
+6. The project will automatically load these keys when running the notebooks.
 
 **Note:** Do not share your `.env` file publicly. It is ignored by GitHub via `.gitignore`.
 
