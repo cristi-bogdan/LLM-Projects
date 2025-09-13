@@ -17,10 +17,12 @@ This is a work in progress and will be continuously updated as I explore new too
 1. In the root of the repository, create a new text file using Notepad (or any text editor).
 2. Add your API keys in the following format:
    
+```
 OPENAI_API_KEY=your_openai_api_key
 GOOGLE_API_KEY=your_google_api_key
 ANTHROPIC_API_KEY=your_anthropic_api_key
 HF_TOKEN=your_huggingface_token
+```
 
 4. Save  the file with the name: `.env`
    **Important:** In the "Save as type" dropdown, select All Files (not `.txt`).
