@@ -18,4 +18,5 @@ This is a work in progress and will be continuously updated as I explore new too
 - [Vellum Docs](https://docs.vellum.ai/)  
 - [Scale Leaderboard](https://scale.com/leaderboard)  
 - [Hugging Face Docs](https://huggingface.co/docs)  
-- [LangChain Docs](https://python.langchain.com/)  
+- [LangChain Docs](https://python.langchain.com/)
+- [Gradio Docs](https://gradio.app/docs/) 
