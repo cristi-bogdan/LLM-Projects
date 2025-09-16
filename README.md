@@ -1,5 +1,4 @@
 # LLM-Projects
-
 ## Overview
 
 This repository contains a collection of projects exploring Large Language Models (LLMs) and generative AI applications.  
