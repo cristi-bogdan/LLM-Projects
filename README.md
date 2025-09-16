@@ -1,5 +1,6 @@
 # LLM-Projects
 
+## LLM-Projects
 This repository contains a collection of projects exploring Large Language Models (LLMs) and generative AI applications.  
 The goal of this repo is to experiment with different AI models, frameworks, and techniques while building a personal portfolio of applied projects.
 
