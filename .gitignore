@@ -73,6 +73,9 @@ instance/
 # Sphinx documentation
 docs/_build/
 
+# mkdocs documentation
+/site
+
 # PyBuilder
 .pybuilder/
 target/
@@ -136,6 +139,10 @@ uv.lock
 # Cython debug symbols
 cython_debug/
 
+# Celery stuff
+celerybeat-schedule
+celerybeat.pid
+
 # Jupyter / project temp files
 *.pkl
 
@@ -148,10 +155,11 @@ marimo/_static/
 marimo/_lsp/
 __marimo__/
 
+# SageMath parsed files
+*.sage.py
 
 # Added this to ignore models downloaded from HF
 model_cache/
-
 
 # Environments
 .env
@@ -167,3 +175,18 @@ llms.bak/
 # Images / generated files 
 # *.png
 # *.jpg
+
+# ignore diagnostics reports
+**/report.txt
+
+# ignore gradio private files
+.gradio
+/.gradio
+
+# Ignore Chroma vector database
+vector_db/
+products_vectorstore/
+
+# Ignore finder files
+.DS_Store
+/.DS_Store
