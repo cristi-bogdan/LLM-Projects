@@ -15,8 +15,8 @@ This is a work in progress and will be continuously updated as I explore new too
 
 ## Resources
 
-- [Vellum Docs](https://docs.vellum.ai/)  
-- [Scale Leaderboard](https://scale.com/leaderboard)  
-- [Hugging Face Docs](https://huggingface.co/docs)  
-- [LangChain Docs](https://python.langchain.com/)
-- [Gradio Docs](https://gradio.app/docs/) 
+- [Vellum](https://docs.vellum.ai/)  
+- [Scale](https://scale.com/leaderboard)  
+- [Hugging Face](https://huggingface.co/docs)  
+- [LangChain](https://python.langchain.com/)
+- [Gradio](https://gradio.app/docs/) 
