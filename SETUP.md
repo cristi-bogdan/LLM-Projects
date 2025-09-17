@@ -114,4 +114,7 @@ This file won't appear in Jupyter Lab because jupyter hides files starting with 
 
 - You should see (llms) in your prompt which is your sign that all is well. And now, type: `jupyter lab` and Jupyter Lab should open up, ready for you to get started. 
 
-For those new to Jupyter Lab / Jupyter Notebook, it's a Data Science environment where you can simply hit shift+return in any cell to run it; 
+For those new to Jupyter Lab / Jupyter Notebook, it's a Data Science environment where you can simply hit shift+return in any cell to run it.
+
+
+
