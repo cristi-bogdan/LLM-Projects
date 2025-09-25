@@ -10,6 +10,7 @@ from openai import OpenAI
 
 
 #-------------------------Method 1 (Useful for quick testing, not recommended for production):---------------------------------------------------
+
 #openai_api_key = "YOUR_OPENAI_API_KEY"
 
 #-------------------------Method 2 - RECOMMENDED (Load API key from .env file, keeps your keys private and safe):--------------------------------
