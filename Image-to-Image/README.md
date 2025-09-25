@@ -2,40 +2,25 @@
 
 ## Overview
 
-This project demonstrates a simple workflow to edit images using OpenAI’s `images.edit` API. The notebook takes an existing image and transforms it according to a prompt. In this example, the glass is turned into a realistic cocktail with ice on a bar counter. The program handles loading your API key from a `.env` file, sending the image and prompt to the API, and saving the generated result.
+This project demonstrates a simple workflow for editing images using OpenAI’s `images.edit` API. The notebook takes an existing image and transforms it according to a prompt. In this example, a glass is turned into a realistic cocktail with ice on a bar counter. The program handles loading your API key from a `.env` file, sending the image and prompt to the API, and saving the generated result.
 
 It’s a hands-on demonstration of combining Python, OpenAI’s API, and image editing in a reproducible environment. 
 
-## Usage
+## Setup Instructions 
 
-You can run the project in **two ways**:
+You can run the project in **two ways**: 
 
-**Method 1 – Gradio Web Interface**  
-
-1. Open `Image-to-Image_GPT.py` and add your OpenAI API key in the code OR create a `.env` file in the project root (see setup file for details).
-2. Run the Python script `Image-to-Image_GPT.py`: 
-```
-python Image-to-Image_GPT.py
-```
-3. A Gradio web interface will open in your browser.  
-4. Upload an image, enter a prompt, and click "Generate" to see and download the edited result.
-
-**Method 2 – Jupyter Notebook**  
-
-1. After completing the steps in the setup file, activate your environment from root directory (C:\Users\YourUsername\Documents\Projects\LLM-Projects):
-```
-conda activate llms
-```
-2. Start Jupyter Lab:
-```
-jupyter lab
-```
-3. Open `Image-to-Image_GPT.ipynb` in Jupyter Lab. 
-4. Run each cell sequentially using `Shift + Enter`.  
+**1 – Running the Notebook** - make sure to activate your virtual environment from root directory (if applicable), install dependencies, open `Image-to-Image_GPT.ipynb` file and run each cell sequentially using `Shift + Enter` in **Jupyter Lab** or **VS Code** (please check setup file from root directory). 
 
 The final edited image will be saved as `result_image.png`.
 
+**2 – Gradio Web Interface** - make sure to activate your virtual environment from root directory (if applicable), install dependencies and run the Python script `Image-to-Image_GPT.py`. 
+
+A Gradio web interface will open in your browser. Upload an image, enter a prompt, and click "Generate" to see and download the edited result.
+
 ## Notes
+
+Don't forget to add your OpenAI API key in the code OR create a `.env` file in the project root (see setup file for details). 
 
 Do not commit your `.env` file; it is ignored by `.gitignore`.  
 
