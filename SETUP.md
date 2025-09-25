@@ -47,7 +47,7 @@ This creates a new directory `LLM-Projects` within your Projects folder and down
 - Navigate to the "project root directory" by entering something like `cd C:\Users\YourUsername\Documents\Projects\LLM-Projects` using the actual path to your LLM-Projects project root directory. Do a `dir` and check you can see subdirectories.
 - Create the environment: `conda env create -f environment.yml`
 - Wait for a few minutes for all packages to be installed - in some cases, this can literally take 30 minutes if you've not used Anaconda before, and even longer depending on your internet connection. 
-- You have now built an isolated, dedicated AI environment for engineering LLMs, running vector datastores, and so much more. You now need to **activate** it using this command: `conda activate llms`  
+- You have now built an isolated, dedicated AI environment. You now need to **activate** it using this command: `conda activate llms`  
 
 You should see `(llms)` in your prompt, which indicates you've activated your new environment.
 
